@@ -10,10 +10,10 @@ import org.apache.commons.net.ftp.FTP;
 
 public class GestorFTP {
     private FTPClient clienteFTP;
-    private static final String SERVIDOR = "cloudinghub.com";
+    private static final String SERVIDOR = "localhost";
     private static final int PUERTO = 21;
-    private static final String USUARIO = "pruebaFTP";
-    private static final String PASSWORD = "root";
+    private static final String USUARIO = "PruebaFTP";
+    private static final String PASSWORD = "";
 
     public GestorFTP() {
         clienteFTP = new FTPClient();
